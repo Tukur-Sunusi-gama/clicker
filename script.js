@@ -7,6 +7,7 @@ coin.addEventListener('click', () => {
      _limit -= upgrade
      score.innerHTML = quantity
      limit.innerHTML = _limit
+     progress.value = _limit
     } 
     else{
         limit.style.color = 'red' 
